@@ -4,5 +4,5 @@ def reverse_each_word(string)
   the_statement.collect do |word|
     reverse_word = word.reverse
   end
-  puts reverse_word
+  reverse_word
 end

@@ -1,6 +1,6 @@
-def reverse_each_word(string)
+def reverse_each_word(array)
   the_statement = []
-  string.each do |word|
+  array.each do |word|
     the_statement << word
   end
   the_statement.reverse

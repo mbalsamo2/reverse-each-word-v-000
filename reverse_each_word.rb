@@ -4,6 +4,5 @@ def reverse_each_word(string)
   the_statement.collect do |word|
     reverse_word.push("#{word.reverse}")
   end
-  reverse_word.join(" ")
-  reverse_word
+  puts reverse_word.join(" ")
 end
